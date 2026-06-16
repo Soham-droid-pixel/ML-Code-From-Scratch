@@ -1,0 +1,62 @@
+# ==========================================
+# 1. PYTHON & ENVIRONMENT SETUPS
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# ==========================================
+# 2. PYTORCH & MACHINE LEARNING
+# ==========================================
+# Model Weights and Checkpoints (Massive files, do not push)
+*.pt
+*.pth
+*.ckpt
+*.weights
+*.onnx
+
+# Datasets and Logs
+data/
+datasets/
+logs/
+runs/
+*.csv
+*.dat
+*.h5
+
+# Jupyter Notebook Checkpoints (If you use them later)
+.ipynb_checkpoints/
+
+# ==========================================
+# 3. C++ COMPILED BINARIES
+# ==========================================
+# Executables and object files (GitHub is for code, not compiled programs)
+*.out
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.dSYM/
+bin/
+build/
+
+# ==========================================
+# 4. SECURITY & IDE CONFIGS (CRITICAL)
+# ==========================================
+# Environment variables and secrets
+.env
+.env.local
+
+# VS Code specific settings
+.vscode/
+
+# Mac OS specific
+.DS_Store
